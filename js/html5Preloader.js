@@ -62,7 +62,7 @@ var	XHR = typeof XMLHttpRequest === 'undefined' ? function () { // IE FIX
 		}
 	},
 	support = {
-		imageTypes: ['jpg', 'png', 'jpeg', 'tiff', 'gif']
+		imageTypes: ['jpg', 'png', 'jpeg', 'tiff', 'gif', 'svg']
 	},
 	ID_PREFIX = 'FILE@';
 /* :) may fail sometimes, but these are the most common cases */
